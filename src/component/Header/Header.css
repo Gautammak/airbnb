@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+
+.header__icon {
+  height: 100px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.header_center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  border-radius: 999px;
+}
+.anywherebtn {
+  width: 100px;
+}
+
+.anywhere {
+  width: 100px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.Anyweek {
+  width: 100px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+}
+
+.searchcontainer {
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin: 10px;
+  /* padding: 10px; */
+}
+
+.searchbox {
+  border: none;
+  text-align: center;
+  width: 100px;
+}
+
+.searchicon {
+  background-color: red;
+  border-radius: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
+}
+
+.Menu {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  border-radius: 1000px;
+}
+
+.MenuIcons {
+  width: 100px;
+  padding: 100px;
+  color: aqua;
+}

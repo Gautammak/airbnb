@@ -1,0 +1,11 @@
+.show {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 5px;
+  border: black 1px solid;
+}
+
+.Learn {
+  color: black;
+  text-decoration: underline;
+}
