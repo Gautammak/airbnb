@@ -1,19 +1,39 @@
 .card {
-  margin: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
-  transition: transform 100ms ease-in;
-  cursor: pointer;
+  margin: 6px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  width: 350px;
+
+  float: left;
+  margin-bottom: 0px;
 }
 
-.card:hover {
+/* .card:hover {
   transform: scale(1.07);
-}
+} */
 
 .card > img {
   object-fit: fill;
   min-width: 300px;
-  min-height: 2000px;
+  min-height: 200px;
   width: 100%;
+  border-radius: 12px 20px;
+}
+
+.card_set {
+  height: auto;
+  width: 100%;
+  margin: 60px;
+}
+.card_info {
+  margin-right: 1px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.start {
+  margin-left: 300px;
+  margin-top: -40px;
+  display: flex;
+  flex-direction: row;
 }

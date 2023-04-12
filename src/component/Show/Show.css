@@ -2,7 +2,8 @@
   text-align: center;
   background-color: whitesmoke;
   padding: 5px;
-  border: black 1px solid;
+  border: lightgray 1px solid;
+  padding-right: 200px;
 }
 
 .Learn {
