@@ -9,11 +9,8 @@ function App() {
   return (
     <div className="App">
       <Show />
-
       <Header />
-      <hr></hr>
       <Home />
-      <button className="map"> Show map </button>
       <Footer />
     </div>
   );
