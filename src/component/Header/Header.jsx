@@ -1,7 +1,7 @@
-import { Avatar } from "@material-ui/core";
-import { Language, Menu, SearchRounded } from "@material-ui/icons";
+import { Language, SearchRounded } from "@material-ui/icons";
 
 import React from "react";
+import BasicMenu from "../Profilemenu/Profilemenu";
 
 import "./Header.css";
 
@@ -34,9 +34,7 @@ function Header() {
         <Language />
 
         <div className="Menu">
-          <Menu />
-
-          <Avatar />
+          <BasicMenu />
         </div>
       </div>
     </div>
