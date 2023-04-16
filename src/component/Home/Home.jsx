@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Home.css";
 
-import Userdata from "../userData/Userdata";
+import Userdata from "../userData/userData";
 
 function Home() {
   return (
